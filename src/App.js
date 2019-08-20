@@ -15,8 +15,6 @@ const App = ({ store }) => (
         <Header />
         <div className="content">
           <Route exact path="/" component={RemindersCalendar} />
-          {/* <Route path="/calendar" component={RemindersCalendar} />
-          <Route path="/about" component={About} /> */}
         </div>
         <Footer />
       </div>
@@ -25,7 +23,6 @@ const App = ({ store }) => (
 );
 
 App.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
   store: PropTypes.any.isRequired
 };
 

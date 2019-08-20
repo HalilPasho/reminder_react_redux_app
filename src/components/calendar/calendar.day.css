@@ -2,7 +2,8 @@
   flex-grow: 1;
   flex-basis: 0;
   border-left: 1px solid black;
-  overflow: hidden;
+  overflow: auto;
+  height: 150px;
 }
 
 .calendar-day:last-child {
@@ -17,4 +18,16 @@
 .calendar-day__title_highlighted {
   font-weight: bold;
   text-decoration: underline;
+  position: relative;
+}
+
+.calendar-day__title_highlighted::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+	  right: 0;
+    bottom: 0;
+    background: blue;
+    z-index: -1;
 }

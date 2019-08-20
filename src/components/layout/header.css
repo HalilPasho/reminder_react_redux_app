@@ -25,6 +25,12 @@
   text-align: left;
 }
 
+.header_title{
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
 .main-menu__item {
   display: inline-block;
   margin-right: 1em;

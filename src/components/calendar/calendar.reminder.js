@@ -7,7 +7,7 @@ const CalendarReminder = ({
   id, title, color, startDate, onEdit
 }) => {
   const reminderStyle = {
-    backgroundColor: color
+    backgroundColor: color,
   };
 
   function handleOnClick() {
