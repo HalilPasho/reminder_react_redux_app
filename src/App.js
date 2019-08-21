@@ -8,6 +8,7 @@ import { RemindersCalendar } from './pages';
 import './App.css';
 import 'react-datepicker/dist/react-datepicker.css';
 
+//router added in case to add other pages
 const App = ({ store }) => (
   <Provider store={store}>
     <Router>

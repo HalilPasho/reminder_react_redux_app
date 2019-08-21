@@ -1,9 +1,9 @@
-import reducer, { initialState } from './reducer';
+// import reducer, { initialState } from './reducer';
 
-export { reducer };
+// export { reducer };
 
-/**
- * Root state selectors
- */
+// /**
+//  * Root state selectors
+//  */
 
-export const selectRoot = state => state.root || initialState;
+// export const selectRoot = state => state.root || initialState;
