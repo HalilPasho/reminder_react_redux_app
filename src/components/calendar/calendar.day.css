@@ -17,11 +17,12 @@
 
 .calendar-day__title_highlighted {
   font-weight: bold;
-  text-decoration: underline;
-  position: relative;
+  background: rgba(161, 68, 255, 0.17);
+  padding: 3px;
+  border-radius: 10px;
 }
 
-.calendar-day__title_highlighted::before{
+/* .calendar-day__title_highlighted::before{
     content: '';
     position: absolute;
     top: 0;
@@ -30,4 +31,5 @@
     bottom: 0;
     background: blue;
     z-index: -1;
-}
+} */
+
